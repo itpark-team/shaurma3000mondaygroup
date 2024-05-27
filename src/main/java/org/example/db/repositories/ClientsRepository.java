@@ -10,6 +10,4 @@ public class ClientsRepository {
     public ClientsRepository() {
         connection = DbConnector.getInstance().getConnection();
     }
-
-
 }
